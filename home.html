@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEVICE.IN</title>
+    <script
+      src="https://kit.fontawesome.com/26128b131d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <!--ini home-->
+    <div class="container" id="home">
+      <header class="header">
+        <h2>Device.<span>In</span></h2>
+        <nav class="navbar">
+          <a href="#home">HOME</a>
+          <a href="#about">TENTANG KAMI</a>
+          <a href="#" id="kat-button">KATEGORI</a>
+          <a href="#kontak">KONTAK</a>
+        </nav>
+        <div class="navbar-extra">
+          <a href="#" id="search-button"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a href="#" id="cart-button"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+          <a href="#" id="bars"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <!--ini search form-->
+        <div class="search-form">
+          <input type="search" id="search-box" placeholder="search here..." />
+          <label for="search-box"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+        </div>
+        <!--ini shopping cart-->
+        <div class="shopping-cart">
+          <div class="cart-item">
+            <img src="img/laptop1.jpg" alt="pesanan 1" />
+            <div class="item-detail">
+              <h3>MSI GF THIN 12UC</h3>
+              <div class="item-price">
+                IDR 13.499.000 <span>15.000.000</span>
+              </div>
+              <i class="fa-solid fa-trash" id="remove-item"></i>
+            </div>
+          </div>
+        </div>
+        <!--ini kategori-->
+        <div class="kategori">
+          <div class="isi-kategori">
+            <a href="">laptop</a>
+            <a href="">handphone</a>
+            <a href="#produk">PC desktop</a>
+            <a href="">console</a>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="isi-content">
+          <h1>Selamat datang di Device.<span>IN</span></h1>
+          <h4>
+            Device.In Toko Laptop dan Komputer Terpercaya di Indonesia menjual
+            berbagai macam kategori produk laptop, gadget dan komputer. Mulai
+            dari Ultrabook, PC desktop, PC tablet, Printer, Projector, Scanner,
+            Software, hingga berbagai macam peripheral dan aksesoris baik untuk
+            laptop maupun PC desktop.
+          </h4>
+        </div>
+      </div>
+    </div>
+    <!--ini tentang kami-->
+    <section class="about" id="about">
+      <div class="content-about">
+        <h1>Tentang <span>Kami</span></h1>
+        <div class="img-about">
+          <img src="img/bg home.jpg" alt="tentang kami" />
+        </div>
+        <div class="isi-about">
+          <h3>kenapa memilih kami?</h3>
+          <p>
+            DEVICE.IN berkomitmen memberikan pengalaman berbelanja online yang
+            aman, nyaman, mudah, menyenangkan, dimana saja dan kapan saja.
+            Koleksi lengkap untuk semua kebutuhan Anda Menghadirkan berbagai
+            produk IT terlengkap dari berbagai merek. Pilihan dapat dilihat dari
+            kategori yang tersusun sistematis mulai dari kategori Computer &
+            Notebooks, Aksesoris Komputer, Office Supplies, dan Office
+            Equipment.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--ini menu\ hot sale-->
+    <section class="menu" id="menu">
+      <div class="content-menu">
+        <h1>HOT<span> SALE</span></h1>
+        <p>"Cepat dan dapatkan produk diskon panas kami sebelum terlambat! Dengan penawaran luar biasa dan harga mencengangkan, Anda tidak akan menemukan waktu yang lebih baik untuk meningkatkan hidup Anda dengan produk berkualitas premium kami!"</p>
+        <div class="isi-menu">
+          <div class="menu-card" id="menu-card1">
+            <img src="img/laptop1.jpg" alt="laptop1" class="card-img" />
+            <h3 class="card-title">MSI GF THIN 12UC</h3>
+            <p class="card-price">IDR 13.499.000 <span>15.000.000</span></p>
+            <div class="three-dot">
+              <a href="" id="msi-detail"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></a>
+            </div>
+          </div>
+          <div class="menu-card" id="menu-card2">
+            <img src="img/laptop2.jpg" alt="laptop2" class="card-img" />
+            <h3 class="card-title">ACER NITRO 5</h3>
+            <p class="card-price">IDR 10.999.000 <span>11.999.000</span></p>
+            <div class="three-dot">
+              <a href="" id="acer-detail"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></a>
+            </div>
+          </div>
+          <div class="menu-card" id="menu-card3">
+            <img src="img/laptop3.jpg" alt="laptop3" class="card-img" />
+            <h3 class="card-title">ASUS TUF DASH 15</h3>
+            <p class="card-price">IDR 12.999.000 <span>14.999.000</span></p>
+            <div class="three-dot">
+              <a href="" id="asus-detail"
+                ><i class="fa-solid fa-ellipsis"></i
+              ></a>
+            </div>
+          </div>
+          <div class="menu-card" id="menu-card4">
+            <img src="img/laptop4.jpg" alt="laptop4" class="card-img" />
+            <h3 class="card-title">HP VICTUS 15</h3>
+            <p class="card-price">IDR 9.999.000 <span>10.999.000</span></p>
+            <div class="three-dot">
+              <a href="" id="hp-detail"><i class="fa-solid fa-ellipsis"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--ini produk-->
+    <section class="produk" id="produk">
+      <div class="content-produk">
+        <h1><span>PC</span> DESKTOP</h1>
+        <p>
+          "Rasakan kinerja secepat kilat dan bebaskan kemungkinan tanpa batas dengan PC desktop tercanggih kami, yang dirancang untuk membawa pekerjaan, game, dan hiburan Anda ke level berikutnya!"
+        </p>
+        <div class="bar">
+          <div class="bar-content">
+            <img src="img/pc1.jpeg" alt="">
+            <h3>MSI ARMAGEDON</h3>
+            <p>IDR 25.000.000</p>
+            <a href="" id="detail-pc1"><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <div class="bar-content">
+            <img src="img/pc2.jpg" alt="">
+            <h3>STEALTH GAMING</h3>
+            <p>IDR 10.000.000</p>
+            <a href="" id="detail-pc2"><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <div class="bar-content">
+            <img src="img/pc3.jpg" alt="">
+            <h3>WHITE FLASH</h3>
+            <p>IDR 49.500.000</p>
+            <a href="" id="detail-pc3"><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <div class="bar-content">
+            <img src="img/pc4.jpg" alt="">
+            <h3>MAXTER SUPER</h3>
+            <p>IDR 97.000.000</p>
+            <a href="" id="detail-pc4"><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <div class="bar-content">
+            <img src="img/pc5.jpg" alt="">
+            <h3>SIMPLERORA</h3>
+            <p>IDR 8.500.000</p>
+            <a href="" id="detail-pc5"><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <div class="bar-content">
+            <img src="img/pc6.jpg" alt="">
+            <h3>produk</h3>
+            <h5>harga</h5>
+            <a href="">lihat</a>
+          </div>
+          <div class="bar-content">
+            <img src="img/pc7.jpeg" alt="">
+            <h3>produk</h3>
+            <h5>harga</h5>
+            <a href="">lihat</a>
+          </div>
+          <div class="bar-content">
+            <img src="img/pc8.jpeg" alt="">
+            <h3>produk</h3>
+            <h5>harga</h5>
+            <a href="">lihat</a>
+          </div>
+          <div class="bar-content">
+            <img src="img/pc9.jpg" alt="">
+            <h3>produk</h3>
+            <h5>harga</h5>
+            <a href="">lihat</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--ini kontak-->
+    <section class="kontak" id="kontak">
+      <div class="isi-kontak">
+        <h1>KONTAK <span>KAMI</span></h1>
+        <p>Kami siap menerima keritik dan saran dari para pelanggan.</p>
+        <div class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126744.42167132886!2d109.29119464283549!3d-6.918890991089047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fc5334bf004a5%3A0x953336debf5dffe5!2sPemalang%2C%20Kec.%20Pemalang%2C%20Kabupaten%20Pemalang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1708999798104!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map"
+          ></iframe>
+          <form action="">
+            <div class="isi-form">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="name" />
+            </div>
+            <div class="isi-form">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="text" placeholder="email" />
+            </div>
+            <div class="isi-form">
+              <i class="fa-solid fa-phone"></i>
+              <input type="text" placeholder="phone" />
+            </div>
+            <button class="button" type="submit">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="sosmed">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+      <div class="link">
+        <a href="#home">HOME</a>
+        <a href="#about">TENTANG KAMI</a>
+        <a href="#menu">MENU</a>
+        <a href="#kontak">KONTAK </a>
+      </div>
+      <div class="credit">
+        <p>Created By <a href="#">NDOOYENG</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!--ini box detail-->
+    <!--msi-->
+    <div class="modal" id="detail-modal">
+      <div class="modal-container">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/laptop1.jpg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>MSI GF THIN 12 UC</h3>
+            <p>
+              12th Gen Intel® Core™ i7-12650H processor <br />
+              NVIDIA® GeForce RTX™ 3050 <br />
+              8GBx1, DDR4-3200 RAM<br />
+              512GBx1 NVMe SSD PCIe Gen4
+            </p>
+            <div class="harga-produk">
+              IDR 13.499.000 <span>15.000.000</span>
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--acer-->
+    <div class="modal" id="detail-modal2">
+      <div class="modal-container">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon2"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/laptop2.jpg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>ACER NITRO 5</h3>
+            <p>
+              12th Gen Intel® Core™ i5-12500H Processor <br />
+              NVIDIA® GeForce® RTX 3050 with 4GB of GDDR6 <br />
+              8GB / 16GB DDR4 RAM<br />
+              512GB SSD NVMe Gen 4
+            </p>
+            <div class="harga-produk">
+              IDR 10.999.000 <span>11.999.000</span>
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--asus-->
+    <div class="modal" id="detail-modal3">
+      <div class="modal-container">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon3"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/laptop3.jpg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>ASUS TUF DASH F15 FX517ZC</h3>
+            <p>
+              12th Gen Intel® Core™ i5-12500H Processor <br />
+              NVIDIA® GeForce® RTX 3050 with 4GB of GDDR6 <br />
+              8GB / 16GB DDR5-4800 SO-DIMM RAM<br />
+              512GB PCIe® 3.0 NVMe™ M.2 SSD
+            </p>
+            <div class="harga-produk">
+              IDR 12.999.000 <span>14.999.000</span>
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--hp-->
+    <div class="modal" id="detail-modal4">
+      <div class="modal-container">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon4"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/laptop4.jpg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>HP VICTUS 15 FB0009AX</h3>
+            <p>
+              AMD Ryzen™ 5 5600H<br />
+              NVIDIA® GeForce® RTX 3050 with 4GB of GDDR6 <br />
+              16 GB DDR4 RAM<br />
+              512 GB SSD Hard drive
+            </p>
+            <div class="harga-produk">
+              IDR 12.999.000 <span>14.999.000</span>
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--PC1-->
+    <div class="modal" id="detailpc1">
+      <div class="modal-containerpc">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon5"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/pc1.jpeg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>MSI ARMAGEDON</h3>
+            <p>PROSESSOR : Intel Core I7 12700KF <br>
+              Motherboard : GIGABYTE BM-760 AORUS ELITE <br>
+              VGA CARD : MSI GEFORCE RTX 4060Ti 16GB GDDR6 <br>
+              RAM : TEAM DELTA RGB DDR4 64gb <br>
+              HDD :  WD BLUE 2TB <br>
+              SSD :  CORSAIR MP600 PRO 1TB M.2 PCIE <br>
+              PSU : 1STPLAYER NGDP ATX 1000W 80+ <br>
+              CASING : COOLER MASTER GM64 Gaming <br>
+              Fan Proccesor Cooler Master DUAL FAN RGB <br>
+              7 FAN RGB</p>
+            <div class="harga-produk">
+              IDR 25.000.000
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--PC2-->
+    <div class="modal" id="detailpc2">
+      <div class="modal-containerpc">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon6"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/pc2.jpg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>STEALTH GAMING</h3>
+            <p>PROSESSOR : AMD RYZEN 3 3200G <br>
+              Motherboard : MSI A520M PRO <br>
+              VGA CARD : BIOSTAR RADEON RX560 4GB DDR5 <br>
+              RAM : DDR4 16gb <br>
+              HDD :  1TB <br>
+              SSD :  512GB <br>
+              PSU : CUBE GAMING RHINO 500WATT 80+   <br>
+              CASING : SIMBADDA BATTLEGROUND 08 <br>
+              Fan Proccesor PCCooler R300 ARGB BLACK <br>
+              4 FAN RGB</p>
+            <div class="harga-produk">
+              IDR 10.000.000
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--PC3-->
+    <div class="modal" id="detailpc3">
+      <div class="modal-containerpc">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon7"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/pc3.jpg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>WHITE FLASH</h3>
+            <p>PROSESSOR : INTEL CORE I7 14700K <br>
+              Motherboard : MSI MPG Z790 EDGE <br>
+              VGA CARD : GIGABYTE GEFORCE RTX 4070TI 16GB GDDR6X <br>
+              RAM : CORSAIR DOMINATOR TITANIUM RGB DDR5 64gb <br>
+              HDD :  WD BLUE 2TB <br>
+              SSD :  SEAGATE FIRECUDA 2TB M.2 PCIE<br>
+              PSU : BE QUIET DARK POWER PRO 1500W   <br>
+              CASING : VRLATECH GAMING CASING <br>
+              Fan Proccesor COOLER MASTER HYPER 622 RGB <br>
+              6 FAN RGB</p>
+            <div class="harga-produk">
+              IDR 49.500.000
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--PC4-->
+    <div class="modal" id="detailpc4">
+      <div class="modal-containerpc">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon8"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/pc4.jpg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>MAXTER SUPER</h3>
+            <p>PROSESSOR : INTEL CORE I9 14900KS <br>
+              Motherboard : ASUS ROG MAXIMUS Z790 APEX <br>
+              VGA CARD : GIGABYTE GEFORCE RTX 4090 24GB GDDR6X <br>
+              RAM : CORSAIR DOMINATOR TITANIUM RGB DDR5 64gb <br>
+              HDD :  SEAGATE 10TB <br>
+              SSD :  MSI SPATIUM M480 PRO 4TB M.2 NVME<br>
+              PSU : CORSAIR AX SERIES 1600W   <br>
+              CASING : LIAN LI DYNAMIC XL PC-O11 CASING <br>
+              Fan Proccesor CORSAIR ICUE H170I ELITE LCD <br>
+              9 FAN RGB</p>
+            <div class="harga-produk">
+              IDR 97.000.000
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="detailpc5">
+      <div class="modal-containerpc">
+        <a href="#"
+          ><i class="fa-regular fa-circle-xmark" id="close-icon9"></i
+        ></a>
+        <div class="modal-content">
+          <img src="img/pc5.jpg" alt="produk 1" />
+          <div class="produk-modal">
+            <h3>SIMLPERORA</h3>
+            <p>PROSESSOR : AMD RYZEN 5 4500 <br>
+              Motherboard : ASUS PRIME B450M A <br>
+              VGA CARD : ARKTEK RADEON RX 580 8GB GDDR5 <br>
+              RAM : VGEN PLATINUM DDR4 2X8GB <br>
+              HDD :  SEAGATE BARACUDA 1TB <br>
+              SSD :  VGEN SSD M.2 NVME 1TB<br>
+              PSU : 1STPLAYER BLACK SIR 500W  <br>
+              CASING : AEROCOOL CS111 ACRYLIC <br>
+              Fan Proccesor STANDARD AMD <br>
+              6 FAN BLUE LIGHT</p>
+            <div class="harga-produk">
+              IDR 8.500.000
+            </div>
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-shopping"></i><span>buy now</span></a>
+            
+            <a href="#" id="add-cart"
+              ><i class="fa-solid fa-cart-plus"></i></i
+              ><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>
